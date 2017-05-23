@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/borderwhite"
+    android:layout_height="70dp">
+    <ImageView
+        android:id="@+id/imgicon"
+        android:layout_alignParentLeft="true"
+        android:src="@android:drawable/ic_menu_agenda"
+        android:layout_width="45dp"
+        android:layout_height="45dp" />
+
+    <TextView
+        android:id="@+id/CustomTitle"
+
+        android:text="Wish Title"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imgicon"
+        android:layout_toEndOf="@+id/imgicon"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <TextView
+        android:id="@+id/CustomDate"
+        android:text="date"
+
+        android:layout_gravity="bottom"
+        android:textSize="18sp"
+        android:gravity="right"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="italic"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgicon"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
